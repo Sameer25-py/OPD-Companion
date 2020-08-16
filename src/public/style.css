@@ -1,1 +1,81 @@
+.main-container{
+    width:500px;
+    height:180px;
+    border-top:5px solid #00a1ac;
+    border-bottom:5px solid #ffa700;
+    border-left:5px solid #00a1ac;
+    border-right:5px solid #ffa700;
+
+    
+}
+.extension-info{
+    width:490px;
+    height:60px;
+    margin-top:10px; 
+    border-bottom:3px solid #777;
+    margin-left:5px;
+    border-spacing:5px;
+}
+.logo{
+    display:inline-block;
+    content:url('https://opendata.com.pk/uploads/admin/2019-12-17-163606.430565logo.png');
+    width:100px;
+    height:50px;
+    box-sizing:border-box;
+    margin-left:5px;  
+    
+}
+.detail {
+    position:absolute;
+    display:inline-block;
+    font-family: 'Roboto';
+    color:#777;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-top:15px;
+    margin-left:5px;
+    box-sizing:border-box;
+}
+.link-container{
+    width:490px;
+    height:40px;
+    margin-top:10px;
+    margin-left:5px;
+    border-spacing:5px;
+    border-bottom:3px solid #777;
+}
+.query{
+    margin-left:5px;
+    display:inline-block;
+    font-family: 'Roboto';
+    color: #ffa700;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:3px;
+}
+.query-element{
+    position:absolute;
+    display:inline-block;
+    margin-left:10px;
+    font-weight:bolder;
+    font-size:15px;
+    font-family: 'Roboto';
+    color:#00a1ac;
+    margin-top:3px;
+    margin-left:50px;
+}
+.center-text{
+    text-align:center;
+}
+.link-div{
+    color:#777;
+    font-family: 'Roboto';
+    font-size:15px;
+    font-weight:bolder;
+    margin-left:5px;
+    margin-top:15px;
+    text-align:center;
+
+}
+
 
