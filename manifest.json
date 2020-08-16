@@ -1,0 +1,17 @@
+{
+    "name": "ODP Companion",
+    "version": "1.0",
+    "description": "Helps in searching database OTG",
+    "permissions": ["declarativeContent"],
+    "background":{
+        "scripts": ["./src/Background_Scripts/main.js"],
+        "persistent":true
+    },
+    "page_action":{
+        "default_popup": "./src/popup.html"
+    },
+    "web_accessible_resources":[
+        "./src/public/opd-logo.png"
+    ],
+    "manifest_version": 2
+  }
